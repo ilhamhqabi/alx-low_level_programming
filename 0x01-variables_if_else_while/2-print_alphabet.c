@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <ctype.h>
+/**
+* main - Entry point
+*
+* Return: Always 1 (Success)
+*/
+int main(void)
+{
+int lowerCase = 'a' ;
+while (liwerCase <= 'z')
+{
+putchar(lowerCase);
+lowerCase += 1;
+}
+putchar('\n');
+return (0);
+}	
