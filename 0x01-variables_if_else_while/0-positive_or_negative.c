@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdlio.h>
+#include <stdio.h>
 /**
 *main - main determine if a randon number is positive, negative or zero.
 *
