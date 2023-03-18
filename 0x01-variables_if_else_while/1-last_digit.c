@@ -4,32 +4,29 @@
 /* more headers goes there */
 /* betty style doc for function main goes there */
 /**
-*main - main function
-*
-*Documentation: A C program that print the last digit of a number.
+* main - Entry point
 *
 *Return: always 0
-*/ 
+*/
 int main(void)
 {
 int n;
-int m;
+int lastnum;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-/* your code goes there */
-m = n % 10;
-if (m > 5)
+lastnum = n % 10;
+if (lastnum > 5)
 {
-printf("Last digital of %d is %d and is greater than 5" , n, m);
+printf("Last digital of %d is %d and is greater than 5\n", n, lastnum);
 }
-else if (m == 0)
+else if (lastnum == 0)
 {
-printf("Last digital of %d is %d and is 0", n, m);
+printf("Last digital of %d is %d and is 0\n", n, lastnum);
 }
-else if (m < 6 && m != 0)
+else if (lastnum < 6 && lastnum != 0)
 {
-printf("Last digital of %d is %d and is less than 6 and not 0", n, m);
+printf("Last digital of %d is %d and is less than 6 and not 0\n", n, lastnum);
 }
 return (0);
 }
